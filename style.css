@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.img-crd {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.sidenav {
+  width: 181px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #E6C79C;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+.sidenav a {
+  padding: 16px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  font-family: 'Lora', serif;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 220px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+.fixed-top {
+  padding: 10px 16px;
+  background: #CDDFA0;
+  color: black;
+  height: 50px;
+  margin-left: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  z-index: 10;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.content {
+  padding: 16px;
+}
+
+h1 {
+  /*background-color: #8CD790;*/
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Garamond', serif;
+  color: #6FD08C;
+}
+
+h3 {
+  font-family: 'Garamond', serif;
+  color: #6FD08C
+}
+
+img {
+  width: auto;
+}
+
+.infographic {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-weight: ;
+  padding-bottom: 50px;
+  font-family: 'Georgia', sans-serif;
+}
